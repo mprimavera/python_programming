@@ -46,6 +46,7 @@ if len(max_keys) > 1:
     while count < len(max_keys):
         max_bidders += " and " + max_keys[count]
         count += 1
+    # print the single max bidder and their bid to the screen
     print(f"{max_bidders} are the max bidders at ${max_bid}")
 else:
     # print the single max bidder and their bid to the screen
