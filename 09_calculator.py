@@ -44,4 +44,29 @@ def calculate():
             calculating = False
 
 
-calculate()
+# calculate()
+
+
+# Second method of creating calculator function using dictionary
+
+# define the 4 mathematical operations to use
+def add(num1, num2):
+    return num1 + num2
+
+def subtract(num1, num2):
+    return num1 - num2
+
+def multiply(num1, num2):
+    return num1 * num2
+
+def divide(num1, num2):
+    return num1 / num2
+
+# create a dictionary for the functions and their corresponding operation symbol
+operations = {"+": add, "-": subtract, "*": multiply, "/": divide}
+
+# use dictionary operations to perform calculations
+numb1 = 8
+numb2 = 3
+operation = "*"
+print(operations[operation](numb1, numb2))
