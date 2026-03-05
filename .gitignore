@@ -212,3 +212,11 @@ __marimo__/
 
 # Keep copied ASCII art from being tracked
 ascii_art.py
+
+
+# Prevent tracking of potentially copyrighted work from any courses by putting them in an /ignore directory
+/ignore
+
+
+# Ignore the .json file
+.vscode
